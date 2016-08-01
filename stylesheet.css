@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(135deg, #ffa249, #ff6d5c);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.everknow {
+  display: block;
+  margin: 0 auto;
+  width: 306px
+}
+
+input, .button {
+  display: block;
+  height: 45px;
+  width: 306px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.login--button {
+  background: #406618;
+  color: white
+}
+.everknow--agreement{
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  opacity: 0.5;
+  margin-bottom: 30px;
+
+}
