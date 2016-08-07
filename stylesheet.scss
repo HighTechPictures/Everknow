@@ -3,26 +3,75 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
 }
+.searchbar img {
+  display: block;
+  position: relative;
+  width: 30px;
+}
+
+.everknow--title-and-login {
+  position: relative;
+  display: block;
+  top: 40px;
+}
+
 .everknow {
   display: block;
   margin: 0 auto;
-  width: 306px
+  width: 306px;
+}
+.everknow--logo {
+  display: block;
+  margin: 0 auto;
 }
 
-input, .button {
+.everknow--title {
   display: block;
-  height: 45px;
-  width: 306px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+input {
+  display: block;
+  padding: 14px 12px;
+  width: 280px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+button {
+  display: block;
+  padding: 14px 12px;
+  width: 300px;
   margin: 0 auto;
   margin-bottom: 10px;
   border: none;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
 }
+
+::-webkit-input-placeholder {
+   color: rgba(255, 255, 255, 0.6);
+   font-size: 14px;
+}
+input:focus{
+  outline: none;
+}
+
 .login--button {
   background: #406618;
   color: white
 }
+
+.everknow--forgot-password {
+  font-size: 14px;
+}
+
 .everknow--agreement{
   position: absolute;
   right: 0;
@@ -31,5 +80,4 @@ input, .button {
   text-align: center;
   opacity: 0.5;
   margin-bottom: 30px;
-
 }
